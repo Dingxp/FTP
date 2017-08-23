@@ -30,6 +30,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+//    server = [[FMServer alloc] init];
+//    server.destination = @"192.168.3.182";
+//    server.port = 21;
+//    server.username = @"11111";
+//    server.password = @"11111";
+    
     
     server = [[FMServer alloc] init];
     server.destination = @"192.168.3.182";
